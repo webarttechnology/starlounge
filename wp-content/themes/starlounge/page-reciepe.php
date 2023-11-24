@@ -64,11 +64,11 @@ while ($loop->have_posts()) : $loop->the_post();
 
             <div class="blog-1-wrapper">
                 <div class="blog1-img-sec">
-                    <img src="<?php echo $image; ?>" alt="blog-img" class="img-fluid w-100">
+                   <a href="<?php the_permalink(); ?>"> <img src="<?php echo $image; ?>" alt="blog-img" class="img-fluid w-100"></a>
                 </div>
                 <div class="blogpage1-content-sec">
                     <p class="blog1-txt1"><?php echo get_field('reservation_extra_field_add_content'); ?></p>
-                    <h2 class="blog1-txt2"><?php the_title(); ?></h2>
+                    <a href="<?php the_permalink(); ?>"><h2 class="blog1-txt2"><?php the_title(); ?></h2></a>
                     <!-- <p class="blog1-txt3 ">Turpis nisi, volutpat scelerisque est aenean. Eu ridiculus imperdiet egestas
                         malesuada. Semper dignissim posuere non hendrerit. Lacus vestibulum,
                         quam est id in aliquet pharetra. Orci sit gravida sapien quis ac eget

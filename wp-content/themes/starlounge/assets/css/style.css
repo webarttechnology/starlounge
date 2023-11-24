@@ -485,7 +485,7 @@ a.add-cart-bnt:hover{
     font-family: 'Elsie';
     font-style: normal;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 53px;
     line-height: 80px;
     text-align: center;
     color: #FFDE9F;
@@ -1866,7 +1866,7 @@ a.home2-search-icon {
 .homepage3-about-sec-mt-100{
     padding-top: 100px;
 }
-.home3-form-btn a{
+.home3-form-btn .booktable_btn{
     width: 350px;
     height: 64px;
     background: #FFDE9F;
@@ -6926,6 +6926,18 @@ textarea.custom-form-control {
     left: 50%;
     transform: translate(-100%, -50%);
 }
+
+
+.footer-full-section .footer-social-medial a i.fab {
+    color: #99A9AD;
+    font-size: 22px;
+}
+
+
+.footer-full-section .footer-social-medial .social-media:hover a i.fab {
+    color: #000;
+}
+
 
 
 @keyframes tada {

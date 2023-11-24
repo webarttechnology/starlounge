@@ -51,13 +51,14 @@ get_header();
                     </div>
                     <div class="reservation2-right">
                         <div class="reservation2-right-content">
-                            <form class="homepage3-form">
+                            <div class="homepage3-form">
                                 <div class="home3-form-top">
                                     <p class="home3-form-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>RESERVE<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                                     <h2 class="home3-form-txt2">Book Your Table</h2>
-                                    <p class="home3-form-txt3">Booking request <a href="tel:+1(234)5678899"><span class="home3-form-no">+1 (234) 567 8899</span></a> or fill out the order form</p>
+                                    <p class="home3-form-txt3">Booking request <a href="tel:<?php echo get_field('phone_number', 49); ?>"><span class="home3-form-no"><?php echo get_field('phone_number', 49); ?></span></a> or fill out the order form</p>
                                 </div>
-                                <div class="home3-form-bottom">
+                                <?php echo do_shortcode('[contact-form-7 id="9276adc" title="Reservation Page Form"]'); ?>
+                                <!-- <div class="home3-form-bottom">
                                     <div class="single-input-form-home3">
                                         <select name="persons" class="custom-select">
                                             <option>1 Person</option>
@@ -101,8 +102,8 @@ get_header();
                                             </span>
                                         </p>
                                     </div>
-                                </div>
-                            </form>
+                                </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -167,40 +168,25 @@ get_header();
                         foreach($galleryloop as $galleryitem){
 
                          ?>
+
                     <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo $galleryitem['gallery_image']; ?>" data-caption="Kebab" data-width="600" data-height="800">
-                                <img src="<?php echo $galleryitem['gallery_image']; ?>" class="img-fluid" alt="gallery item">
-                                <div class="content-overlay-home2"></div>
-                            </a>        
+                            <a class="example-image-link" href="<?php echo $galleryitem['gallery_image']; ?>" data-lightbox="example-set"><img class="example-image" src="<?php echo $galleryitem['gallery_image']; ?>" alt=""/></a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo $galleryitem['gallery_image']; ?>" data-caption="Kebab" data-width="600" data-height="800">
-                                <p class="gallery-overlay-txt1"><?php echo $galleryitem['gallery_add_title']; ?></p>
-                                <div  class="home2-search-icon">
-                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <mask style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
-                                            <rect width="40" height="40" fill="white"></rect>
-                                        </mask>
-                                        <g mask="url(#mask0_540_5055)">
-                                            <circle cx="19.6111" cy="19.6108" r="14.9809" stroke="#0B1315" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
-                                            <path d="M30.0305 30.8086L35.9039 36.6667" stroke="#0B1315" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        </g>
-                                    </svg>
-                                </div>
-                            </a>
+                           <a class="example-image-link" href="<?php echo $galleryitem['gallery_image']; ?>" data-lightbox="example-set"></a>
                         </div>
                     </div>
                 <?php } } ?>
                   <!--   <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" data-caption="Finger Roll" data-width="600" data-height="800">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" class="img-fluid" alt="gallery item">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" data-caption="Finger Roll" data-width="600" data-height="800">
+                                <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" class="img-fluid" alt="gallery item">
                                 <div class="content-overlay-home2"></div>
                             </a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" data-caption="Finger Roll" data-width="600" data-height="800">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-2.png" data-caption="Finger Roll" data-width="600" data-height="800">
                                 <p class="gallery-overlay-txt1">Finger Roll</p>
                                 <div  class="home2-search-icon">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -218,13 +204,13 @@ get_header();
                     </div>
                     <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" data-caption="Chicken" data-width="600" data-height="800">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" class="img-fluid" alt="gallery item">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" data-caption="Chicken" data-width="600" data-height="800">
+                                <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" class="img-fluid" alt="gallery item">
                                 <div class="content-overlay-home2"></div>
                             </a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" data-caption="Chicken" data-width="600" data-height="800">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-3.png" data-caption="Chicken" data-width="600" data-height="800">
                                 <p class="gallery-overlay-txt1">Chicken</p>
                                 <div  class="home2-search-icon">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -242,13 +228,13 @@ get_header();
                     </div>
                     <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" data-caption="Pasta" data-width="600" data-height="800">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" class="img-fluid" alt="gallery item">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" data-caption="Pasta" data-width="600" data-height="800">
+                                <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" class="img-fluid" alt="gallery item">
                                 <div class="content-overlay-home2"></div>
                             </a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" data-caption="Pasta" data-width="600" data-height="800">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-4.png" data-caption="Pasta" data-width="600" data-height="800">
                                 <p class="gallery-overlay-txt1">Pasta</p>
                                 <div  class="home2-search-icon">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -266,13 +252,13 @@ get_header();
                     </div>
                     <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" data-caption="Roll" data-width="600" data-height="800">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" class="img-fluid" alt="gallery item">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" data-caption="Roll" data-width="600" data-height="800">
+                                <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" class="img-fluid" alt="gallery item">
                                 <div class="content-overlay-home2"></div>
                             </a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" data-caption="Roll" data-width="600" data-height="800">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-5.png" data-caption="Roll" data-width="600" data-height="800">
                                 <p class="gallery-overlay-txt1">Roll</p>
                                 <div  class="home2-search-icon">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -290,13 +276,13 @@ get_header();
                     </div>
                     <div class="swiper-slide gallery-slide">
                         <div class="gallery-item">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" data-caption="Kebab" data-width="600" data-height="800">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" class="img-fluid" alt="gallery item">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" data-caption="Kebab" data-width="600" data-height="800">
+                                <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" class="img-fluid" alt="gallery item">
                                 <div class="content-overlay-home2"></div>
                             </a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                            <a class="gallery-popup" href="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" data-caption="Kebab" data-width="600" data-height="800">
+                            <a class="gallery-popup" href="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/gallery-1.png" data-caption="Kebab" data-width="600" data-height="800">
                                 <p class="gallery-overlay-txt1">Kebab</p>
                                 <div  class="home2-search-icon">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">

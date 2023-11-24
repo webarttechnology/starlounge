@@ -73,7 +73,7 @@ while ($loop->have_posts()) : $loop->the_post();
                                 foreach($menusec as $menusecitem){
 
                              ?>
-                            <a href="single-shop.html">
+                           
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
                                         <img src="<?php echo $menusecitem['menu_item_image']; ?>" alt="menu-item-img">
@@ -84,7 +84,7 @@ while ($loop->have_posts()) : $loop->the_post();
                                         <h5 class="tab-menu-txt3"><?php echo $menusecitem['menu_item_price']; ?></h5>
                                     </div>
                                 </div>
-                            </a>
+                            
                         <?php } } ?>
 
                             <!-- <a href="single-shop.html">

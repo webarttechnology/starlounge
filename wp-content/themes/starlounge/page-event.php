@@ -175,19 +175,40 @@ get_header();
 						<div class="col-lg-12 blog8-left">
 							<div>
 								<div class="blogpage10-section-deatils">
-									<div class="blogpage10-wrapper wow fadeInUp"  data-wow-delay="3s">
+									 <?php
+      $args = array(
+        'post_type' => 'ourevent',
+        'post_status' => 'publish',
+        'posts_per_page' => -1,
+        'orderby' => 'id',
+        'order' => 'ASC',
+      );
+
+      $loop = new WP_Query($args);
+while ($loop->have_posts()) : $loop->the_post();
+        $image = wp_get_attachment_url(get_post_thumbnail_id($post->ID) );
+      ?>
+									<div class="blogpage10-wrapper wow fadeInUp pb-5"  data-wow-delay="3s">
 										<div class="blogpage7-img">
 											<div class="blogpage7-overlay"></div>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogpage7/blog-1.png" alt="blog-img" class="img-fluid w-100">	
+										<a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="blog-img" class="img-fluid w-100"></a>	
 										</div>
 										<div class="blogpage7-content">
 											<div class="blogpage7-top">
-												<span class="blog4-txt1">SEPTEMBER 20, 2022 </span>
+												<span class="blog4-txt1"><?php echo date('F, j Y'); ?> </span>
 											</div>
-											<h2 class="blogpage7-txt1">Everything You Wanted To Know About Dining In Restaurants</h2>
+											<a href="<?php the_permalink(); ?>"><h2 class="blogpage7-txt1"><?php the_title(); ?></h2></a>
 										</div>
 									</div>
-									<div class="blogpage10-wrapper wow fadeInUp"  data-wow-delay="3s">
+									<?php 
+
+            endwhile;
+
+            wp_reset_postdata();
+
+
+             ?>
+									<!-- <div class="blogpage10-wrapper wow fadeInUp"  data-wow-delay="3s">
 										<div class="blogpage7-img">
 											<div class="blogpage7-overlay"></div>
 											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogpage7/blog-2.png" alt="blog-img" class="img-fluid w-100">	
@@ -246,7 +267,7 @@ get_header();
 											</div>
 											<h2 class="blogpage7-txt1">Asian-Inspired Sexy Fish Is Miami’s Hottest New Destination</h2>
 										</div>
-									</div>
+									</div> -->
 								</div>
 								<!-- <div class="blogpage8-pagination">
 									<div>
@@ -268,7 +289,7 @@ get_header();
 		</section>
 		<!-- Blog Content Section End -->
 		<!-- Testimonial Section Start -->
-		<section id="menupage-1-testimonials-sec">
+		<section id="menupage-1-testimonials-sec" class="d-none">
 			<div class="menupage-1-testimo-overlay"></div>
 			<div class="container">
 				<div class="home2-testimonials-sec-full">

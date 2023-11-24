@@ -723,3 +723,36 @@ add_action('init', 'post_type_menu');
 
 //---------------end-------------------------------------------
 
+
+// Event post type
+
+function post_type_ourevent() {
+
+$labels = array(
+'name' => _x('OurEvents', 'plural'),
+'singular_name' => _x('OurEvent', 'singular'),
+'menu_name' => _x('OurEvents', 'admin menu'),
+'name_admin_bar' => _x('OurEvent', 'admin bar'),
+'add_new' => _x('Add New', 'add new'),
+'add_new_item' => __('Add New OurEvent'),
+'new_item' => __('New OurEvent'),
+'edit_item' => __('Edit OurEvent'),
+'view_item' => __('View OurEvent'),
+'all_items' => __('All OurEvents'),
+
+);
+$args = array(
+'supports' => array( 'title',  'thumbnail', 'editor',),
+'labels' => $labels,
+'public' => true,
+'query_var' => true,
+'rewrite' => array('slug' => 'ourevent'),
+'has_archive' => true,
+'hierarchical' => false,
+);
+register_post_type('ourevent', $args);
+}
+add_action('init', 'post_type_ourevent');
+
+//---------------end-------------------------------------------
+

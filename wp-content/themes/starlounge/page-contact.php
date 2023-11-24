@@ -72,10 +72,10 @@ get_header();
                     <div class="about-us-right">
                         <div class="about-us-right-full">
                             <div class="about-first-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact-us/contact-1.png" alt="item-img" class="img-fluid">
+                                <img src="<?php echo get_field('contact_page_right_side_image_1'); ?>" alt="item-img" class="img-fluid">
                             </div>
                             <div class="about-second-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact-us/contact-2.png" alt="item-img" class="img-fluid">
+                                <img src="<?php echo get_field('contact_page_right_side_image_2'); ?>" alt="item-img" class="img-fluid">
                             </div>
                         </div>
                     </div>

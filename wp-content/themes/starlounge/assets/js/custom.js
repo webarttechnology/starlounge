@@ -378,11 +378,11 @@ $('.sub').on('click', function () {
 new WOW().init();
 
 /*-------------------------------------Anchore Tag Link Added-------------------------------------*/
-$(".chefspage2-wrapper").wrap('<a href="single-chefs-deatail-page.html" class="single-chefs-des"></a>');
-$(".chefs1-team-slide").wrap('<a href="single-chefs-deatail-page.html" class="single-chefs-des1"></a>');
+// $(".chefspage2-wrapper").wrap('<a href="single-chefs-deatail-page.html" class="single-chefs-des"></a>');
+// $(".chefs1-team-slide").wrap('<a href="single-chefs-deatail-page.html" class="single-chefs-des1"></a>');
 
-$(".blog-1-wrapper ,.blogpage10-wrapper ,.blogpage6-wrapper ,.blogpage7-wrapper ,.blog2-blog-item, .blogpage5-deatils ,.blogpage8-wrapper, .blog2-post-wrapper").wrap('<a href="single-blogpage1.html"></a>');
-$(".menupage-5-bottom").wrap('<a href="single-shop.html"></a>');
+// $(".blog-1-wrapper ,.blogpage10-wrapper ,.blogpage6-wrapper ,.blogpage7-wrapper ,.blog2-blog-item, .blogpage5-deatils ,.blogpage8-wrapper, .blog2-post-wrapper").wrap('<a href="single-blogpage1.html"></a>');
+// $(".menupage-5-bottom").wrap('<a href="single-shop.html"></a>');
 
 /*--------------Mobile Menu------------------*/
 $(document).on("click", function(event){
