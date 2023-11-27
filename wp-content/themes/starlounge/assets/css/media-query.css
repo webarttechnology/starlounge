@@ -2878,8 +2878,17 @@
 		width: 150px;
 	}
 	.res-txt1{
-		font-size: 64px;
+		font-size: 50px;
 	}
+	
+	.home3-form-btn .booktable_btn {
+    width: 100%;
+}
+	.hero-right {
+    position: relative;
+    top: unset;
+	margin-top:30px;
+}
 	#about-us-page-counter-sec {
 		margin-top: -200px;
 	}

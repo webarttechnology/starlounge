@@ -6,7 +6,7 @@
          <div class="about-us-img">
             <div class="menupage-1-overlay"></div>
             <div class="menupage-1-conten">
-               <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">About Us</h1>
+               <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">About Us</h1>
             </div>
          </div>
          <div class="breadcrumb-section">
@@ -42,11 +42,11 @@
             <div class="home2-our-restaurant-section-full">
                <div class="home2-restaurant-top">
                   <div class="home2-restaurant-top-full">
-                     <div class="home2-restaurant-top-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="3s">
+                     <div class="home2-restaurant-top-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                         <p class="home2-our-res-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span><?php echo get_field('top_heading'); ?><span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="home2-our-res-txt2"><?php echo get_field('about_main_heading'); ?></h2>
                      </div>
-                     <div class="home2-restaurant-top-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="3s">
+                     <div class="home2-restaurant-top-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                         <p class="home2-rest-txt1"><?php echo get_field('about_description'); ?></p>
                      </div>
                   </div>

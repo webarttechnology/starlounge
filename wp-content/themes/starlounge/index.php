@@ -20,7 +20,7 @@ get_header(); ?>
 			<div class="blog1-section-img">
 				<div class="menupage-1-overlay"></div>
 				<div class="menupage-1-conten">
-					<h1 class="blog1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">News</h1>
+					<h1 class="blog1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">News</h1>
 				</div>
 			</div>
 			<div class="breadcrumb-section">

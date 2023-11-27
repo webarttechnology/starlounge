@@ -9,7 +9,7 @@ get_header();
             <div class="reservation1-section-img">
                 <div class="menupage-1-overlay"></div>
                 <div class="menupage-1-conten">
-                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">Reservation</h1>
+                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Reservation</h1>
                 </div>
             </div>
             <div class="breadcrumb-section">
@@ -42,7 +42,7 @@ get_header();
                 <span class="line-3"></span>
                 <span class="line-4"></span>
                 <span class="line-5"> </span>
-                <div class="reservation1-sec-deatils-full wow fadeInUp" data-wow-duration="1s" data-wow-delay="3s">
+                <div class="reservation1-sec-deatils-full wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="reservation1-left">
                         <div class="reservation1-left-content">
                             <h2 class="res-txt1"><?php echo get_field('reservation_1st_section_heading'); ?></h2>
@@ -174,7 +174,7 @@ get_header();
                             <a class="example-image-link" href="<?php echo $galleryitem['gallery_image']; ?>" data-lightbox="example-set"><img class="example-image" src="<?php echo $galleryitem['gallery_image']; ?>" alt=""/></a>        
                         </div>
                         <div class="home2-gallery-overlay fadeIn-bottom fadeIn-right">
-                           <a class="example-image-link" href="<?php echo $galleryitem['gallery_image']; ?>" data-lightbox="example-set"></a>
+                            <a class="example-image-link" href="<?php echo $galleryitem['gallery_image']; ?>" data-lightbox="example-set"></a>
                         </div>
                     </div>
                 <?php } } ?>

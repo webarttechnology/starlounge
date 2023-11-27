@@ -8,7 +8,7 @@ get_header();
 			<div class="blog1-section-img">
 				<div class="menupage-1-overlay"></div>
 				<div class="menupage-1-conten">
-					<h1 class="blog1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">Event</h1>
+					<h1 class="blog1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Event</h1>
 				</div>
 			</div>
 			<div class="breadcrumb-section">
@@ -45,7 +45,6 @@ get_header();
 					<div class="row m-0 blogpage2-deatils">
 						<div class="col-lg-4 blog8-left order-lg-1 order-2">
 							<div class="blog2-sidebar-right">
-								<h2 class="d-none">Blog Page</h2>
 								<div class="sidebar-widget">
 									<div class="search-wrapper d-none">
 										<form class="search-form" method="get">
@@ -188,17 +187,18 @@ get_header();
 while ($loop->have_posts()) : $loop->the_post();
         $image = wp_get_attachment_url(get_post_thumbnail_id($post->ID) );
       ?>
-									<div class="blogpage10-wrapper wow fadeInUp pb-5"  data-wow-delay="3s">
+									<div class="blogpage10-wrapper wow fadeInUp pb-5"  data-wow-delay="1s">
 										<div class="blogpage7-img">
 											<div class="blogpage7-overlay"></div>
-										<a href="<?php the_permalink(); ?>"><img src="<?php echo $image; ?>" alt="blog-img" class="img-fluid w-100"></a>	
+										<img src="<?php echo $image; ?>" alt="blog-img" class="img-fluid w-100">	
 										</div>
 										<div class="blogpage7-content">
 											<div class="blogpage7-top">
 												<span class="blog4-txt1"><?php echo date('F, j Y'); ?> </span>
 											</div>
-											<a href="<?php the_permalink(); ?>"><h2 class="blogpage7-txt1"><?php the_title(); ?></h2></a>
+											<h2 class="blogpage7-txt1"><?php the_title(); ?></h2>
 										</div>
+									<a href="<?php the_permalink(); ?>"></a>
 									</div>
 									<?php 
 

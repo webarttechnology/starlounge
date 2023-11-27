@@ -9,7 +9,7 @@ get_header();
             <div class="contact-us-img">
                 <div class="menupage-1-overlay"></div>
                 <div class="menupage-1-conten">
-                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">Contact Us</h1>
+                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Contact Us</h1>
                 </div>
             </div>
             <div class="breadcrumb-section">

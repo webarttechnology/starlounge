@@ -1028,7 +1028,7 @@ li.widget_media_image,
 }
 .fixed {
     position: fixed !important;
-    z-index: 1;
+    z-index: 2;
     background: linear-gradient(180deg, rgba(11, 19, 21, 0.80) 0%, rgba(11, 19, 21, 0.20) 100%);
     backdrop-filter: blur(5px);
     width: 100%;
@@ -1039,6 +1039,16 @@ li.widget_media_image,
     -webkit-animation: fixedheader 600ms ease 0ms 1 forwards;
     animation: fixedheader 600ms ease 0ms 1 forwards;
 }
+
+.blogpage10-section-deatils .blogpage10-wrapper a {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
 .hero-left{
     width: 65%;
     margin-top: 40px;
@@ -3101,7 +3111,8 @@ p.reser-txt3-menu1 a {
     background-image: url(../images/menupage-1/Reservation-1.png);
     position: relative;
     padding: 100px 0;
-    height: 740px;
+/*     height: 740px; */
+	height:auto;
 }
 .menupage-1-book-now-btn {
     width: 155px;
@@ -3114,7 +3125,7 @@ p.reser-txt3-menu1 a {
     margin-right: auto;
     margin-top: 60px;
 }
-.menupage-1-book-now-btn a {
+.menupage-1-book-now-btn .form_btn {
     color:#0B1315;
     text-align: center;
     font-size: 18px;
@@ -3122,6 +3133,28 @@ p.reser-txt3-menu1 a {
     font-weight: 500;
     line-height: 24px;
 }
+
+.reservation-sec-full .menupage-1-book-now-btn p {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position:relative;
+}
+.reservation-sec-full .menupage-1-book-now-btn p input {
+	background: transparent;
+    border: none;
+}
+.reservation-sec-full .menupage-1-book-now-btn p .wpcf7-spinner {
+	position: absolute;
+	top:50%;
+	right: -40px;
+	transform:translate(0, -50%);
+	margin: 0;
+}
+.reservation-sec-full .menupage-1-book-now-btn:hover p input {
+	color: #FFDE9F;
+}
+
 .menupage-1-reser-overlay {
     position: absolute;
     width: 100%;
@@ -6929,15 +6962,13 @@ textarea.custom-form-control {
 
 
 .footer-full-section .footer-social-medial a i.fab {
-    color: #99A9AD;
-    font-size: 22px;
+	color: #99A9AD;
+	font-size: 22px;
 }
-
 
 .footer-full-section .footer-social-medial .social-media:hover a i.fab {
-    color: #000;
+	color: #000;
 }
-
 
 
 @keyframes tada {
@@ -6995,6 +7026,11 @@ textarea.custom-form-control {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+}
+
+.index-hero-tb .hero-heading {
+	position:relative;
+	z-index:1;
 }
 
 @keyframes zoomIn {

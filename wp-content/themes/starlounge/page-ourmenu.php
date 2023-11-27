@@ -9,7 +9,7 @@ get_header();
             <div class="menupage-1-section-img">
                 <div class="menupage-1-overlay"></div>
                 <div class="menupage-1-conten">
-                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="2.5s">Menu</h1>
+                    <h1 class="menupage-1-hero-txt1 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Menu</h1>
                 </div>
             </div>
             <div class="breadcrumb-section">
@@ -57,7 +57,7 @@ while ($loop->have_posts()) : $loop->the_post();
                 <span class="line-3"></span>
                 <span class="line-4"></span>
                 <span class="line-5"> </span>
-                <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="3s">
+                <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="menupage-1-breakfast-top">
                         <p class="menupage1-break-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span><?php echo get_field('menu_type'); ?><span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="menupage1-break-txt2"><?php the_title(); ?></h2>

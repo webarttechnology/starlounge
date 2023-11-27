@@ -198,7 +198,7 @@
                     </div>
                     <div class="modal-body">
                         <video class="video-sec" controls loop muted autoplay>
-                            <source src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/video.mp4" type="video/mp4">
+                            <source src="<?php echo get_field('banner_bottom_video_link'); ?>" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -226,15 +226,26 @@
         <script src="<?php echo get_template_directory_uri(); ?>/assets/js/scolling.js"></script>
         <script  src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
         <script  src="<?php echo get_template_directory_uri(); ?>/assets/js/lightbox.js"></script>
-    
-
-
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
     lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true
     })
 </script>
+
+<script>
+$('#fade').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  slidesToShow: 1,
+  cssEase: 'linear'
+});
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
