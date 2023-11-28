@@ -190,7 +190,7 @@ while ($loop->have_posts()) : $loop->the_post();
                 <span class="line-5"> </span>
                 <div data-aos="fade-right">
                     <div class="menupage-1-breakfast-top">
-                        <p class="menupage1-break-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>LUNCH<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+                        <p class="menupage1-break-txt1"><span class="pr-10"><img src="<?php// echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>LUNCH<span class="pf-10"><img src="<?php// echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="menupage1-break-txt2">Take Your Real Lunch Break</h2>
                         <p class="menupage1-break-txt3">Available: Monday to Sunday 12pm to 3.30pm</p>
                     </div>
@@ -212,7 +212,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-2.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-2.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Chicken Biryani</h4>
@@ -224,7 +224,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-3.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-3.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Finger Chicken</h4>
@@ -236,7 +236,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-4.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-4.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Orange Juice</h4>
@@ -248,7 +248,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-5.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-5.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Le Pigeon Burger</h4>
@@ -260,7 +260,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-6.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-6.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Broccoli Rabe</h4>
@@ -272,7 +272,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-7.png" alt="menu-item-img">
+                                        <img src="<?php// echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-7.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Pineapple Cake</h4>
@@ -306,7 +306,7 @@ while ($loop->have_posts()) : $loop->the_post();
                 <span class="line-5"> </span>
                 <div data-aos="fade-left">
                     <div class="menupage-1-breakfast-top">
-                        <p class="menupage1-break-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>DINNER<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+                        <p class="menupage1-break-txt1"><span class="pr-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>DINNER<span class="pf-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="menupage1-break-txt2">Just Relax With Your Family</h2>
                         <p class="menupage1-break-txt3">Available: Monday to Sunday 8pm to 11.30pm</p>
                     </div>
@@ -316,7 +316,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-1.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-1.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Antipasto Salad</h4>
@@ -328,7 +328,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-2.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-2.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Chicken Biryani</h4>
@@ -340,7 +340,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-3.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-3.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Finger Chicken</h4>
@@ -352,7 +352,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-4.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-4.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Orange Juice</h4>
@@ -364,7 +364,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-5.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-5.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Le Pigeon Burger</h4>
@@ -376,7 +376,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-6.png" alt="menu-item-img">
+                                        <img src="<?php// echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-6.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Broccoli Rabe</h4>
@@ -400,7 +400,7 @@ while ($loop->have_posts()) : $loop->the_post();
                             <a href="single-shop.html">
                                 <div class="homepage1-menu-content">
                                     <div class="homepage1-menu-left">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-8.png" alt="menu-item-img">
+                                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/menupage-1/menu-8.png" alt="menu-item-img">
                                     </div>
                                     <div class="homepage1-menu-right">
                                         <h4 class="tab-menu-txt1">Beef Grilled</h4>
@@ -420,7 +420,7 @@ while ($loop->have_posts()) : $loop->the_post();
             <div class="container">
                 <div class="reservation-sec-full" data-aos="fade-down">
                     <div class="reser-top">
-                        <p class="reser-txt1-menu1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>RESERVATION<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+                        <p class="reser-txt1-menu1"><span class="pr-10"><img src="<?php// echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>RESERVATION<span class="pf-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="reser-txt2-menu1">Book A Table</h2>
                         <p class="reser-txt3-menu1">You can Call Us directly at <a href="tel:+01(234)5678899"><span class="menupage1-no">+01 (234) 567 8899</span></a></p>
                     </div>
@@ -479,7 +479,7 @@ while ($loop->have_posts()) : $loop->the_post();
             </div>
         </section> -->
         
-        <section id="app-section-menupage1 d" class="d-none">
+<!--         <section id="app-section-menupage1 d" class="d-none">
             <div class="container line app-section-menupage1">
                 <span class="line-3"></span>
                 <span class="line-4"></span>
@@ -487,34 +487,34 @@ while ($loop->have_posts()) : $loop->the_post();
                 <div class="fast-ordering-sec-full">
                     <div class="fast-ordering-left" data-aos="fade-right">
                         <div class="fast-top-sec">
-                            <p class="fast-order-txt1"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>MOBILE APP<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+                            <p class="fast-order-txt1"><span class="pr-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>MOBILE APP<span class="pf-10"><img src="<?php// echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         </div>
                         <h2 class="fast-order-txt2 ">Get Our Delicious
                         Dish Delivered at Your Doorstep!</h2>
                         <p class="fast-order-txt3">Vitae neque libero ullamcorper gravida fusce donec feugiat massa dui. Turpis massa et ipsum orci, sem commodo. Sapien hendrerit cursus eros, netus lacus, risus in quis vitae.</p>
                         <div class="fast-otder-media-sec">
                             <div>
-                                <a href="javascript:void(0)"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/google.png" alt="google-img" class="img-fluid"></a>
+                                <a href="javascript:void(0)"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/google.png" alt="google-img" class="img-fluid"></a>
                             </div>
                             <div>
-                                <a href="javascript:void(0)"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/appstrore.png" alt="appstore-img" class="img-fluid"></a>
+                                <a href="javascript:void(0)"><img src="<?php// echo get_template_directory_uri(); ?>/assets/images/Homepage1/appstrore.png" alt="appstore-img" class="img-fluid"></a>
                             </div>
                         </div>
                     </div>
                     <div class="fast-ordering-right" data-aos="fade-left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage2/mobile-img.png" alt="mobile-img">
+                        <img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage2/mobile-img.png" alt="mobile-img">
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  -->
         <!-- Mobile Section End -->
         <!-- Testimonial Section Start -->
-        <section id="menupage-1-testimonials-sec" class="d-none">
+<!--         <section id="menupage-1-testimonials-sec" class="d-none">
             <div class="menupage-1-testimo-overlay"></div>
             <div class="container">
                 <div class="home2-testimonials-sec-full">
                     <div class="home2-test-top">
-                        <p class="homemenu-txt1 wow fadeInUp  " data-wow-duration="1s"><span class="pr-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>TESTIMONIALS<span class="pf-10"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
+                        <p class="homemenu-txt1 wow fadeInUp  " data-wow-duration="1s"><span class="pr-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span>TESTIMONIALS<span class="pf-10"><img src="<?php //echo get_template_directory_uri(); ?>/assets/images/Homepage1/yellow-star.png" alt="yellow-star"></span></p>
                         <h2 class="homemenu-txt2 homemenu-txt22 wow fadeInUp " data-wow-duration="1.4s">The Reviews Of Customers When Coming To Our Restaurant!</h2>
                     </div>
                     <div class="home2-test-bottom wow fadeInUp" data-wow-duration="1.6s">
@@ -533,7 +533,7 @@ while ($loop->have_posts()) : $loop->the_post();
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  -->
         <!-- Testimonial Section End -->
        
 

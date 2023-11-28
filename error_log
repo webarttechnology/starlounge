@@ -122,3 +122,17 @@ Stack trace:
 [27-Nov-2023 07:02:17 UTC] PHP Parse error:  Unclosed '{' on line 397 in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-home.php on line 1048
 [27-Nov-2023 07:02:53 UTC] PHP Parse error:  syntax error, unexpected token "endwhile" in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-home.php on line 415
 [27-Nov-2023 09:12:14 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-home.php on line 31
+[28-Nov-2023 04:23:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-ourmenu.php:490
+Stack trace:
+#0 /home/webbersunited/public_html/cms/star-lounge/wp-includes/template-loader.php(106): include()
+#1 /home/webbersunited/public_html/cms/star-lounge/wp-blog-header.php(19): require_once('/home/webbersun...')
+#2 /home/webbersunited/public_html/cms/star-lounge/index.php(17): require('/home/webbersun...')
+#3 {main}
+  thrown in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-ourmenu.php on line 490
+[28-Nov-2023 04:34:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-ourmenu.php:490
+Stack trace:
+#0 /home/webbersunited/public_html/cms/star-lounge/wp-includes/template-loader.php(106): include()
+#1 /home/webbersunited/public_html/cms/star-lounge/wp-blog-header.php(19): require_once('/home/webbersun...')
+#2 /home/webbersunited/public_html/cms/star-lounge/index.php(17): require('/home/webbersun...')
+#3 {main}
+  thrown in /home/webbersunited/public_html/cms/star-lounge/wp-content/themes/starlounge/page-ourmenu.php on line 490
